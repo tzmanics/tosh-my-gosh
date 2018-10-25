@@ -1,0 +1,28 @@
+{
+  "name": "tosh-my-gosh",
+  "version": "0.0.0",
+  "description": "a realtime chat for all things toshmagosh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzmanics/tosh-my-gosh.git"
+  },
+  "keywords": [
+    "realtime",
+    "chat",
+    "vue"
+  ],
+  "author": "tzmanics",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tzmanics/tosh-my-gosh/issues"
+  },
+  "homepage": "https://github.com/tzmanics/tosh-my-gosh#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1"
+  }
+}
