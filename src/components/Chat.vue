@@ -30,7 +30,7 @@ export default {
       user: '',
       message: '',
       messages: [],
-      socket: io('localhost:3001'),
+      socket: io('https://tosh-my-gosh-lpdetzwyjk.now.sh'),
       toshiGallery: [
         'https://bit.ly/2CFJPD0',
         'https://bit.ly/2ENbN2u',
