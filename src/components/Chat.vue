@@ -51,7 +51,7 @@ export default {
       e.preventDefault()
       this.socket.emit('SEND_MESSAGE', {
         user: this.user,
-        message: this.toshiGallery[Math.floor(Math.random() * 16) + 1]
+        message: this.toshiGallery[Math.floor(Math.random() * 15) + 1]
       })
       this.message = ''
     }

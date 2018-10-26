@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <span>Toshojis!</span>
+      <span>toshojis!</span>
     </header>
     <main>
       <Chat />
