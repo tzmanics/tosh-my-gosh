@@ -1,22 +1,18 @@
 <template>
   <div class="chat">
-    <div class="chat-area">
-      <h3>Stop, Toshi Time!</h3> 
-      <hr>
-    </div>
     <div class="chat-body">
       <div class="messages" v-for="(msg, index) in messages" :key="index">
-        <p>user: {{msg.user}}</p>
+        <p>from: {{msg.user}}</p>
         <img :src="msg.message" alt="toshoji">
       </div>
     </div>
     <div class="chat-footer">
       <form @submit.prevent="sendMessage">
       	<div class="form-input">
-      		<label for="user">User:</label>
+      		<label for="user">your name:</label>
       		<input type="text" v-model="user" class="form-control">
-      	</div>
-      	<button type="submit" class="button">Send Random Toshoji</button>
+        	<button type="submit" class="button">send random toshoji</button>
+        </div>
       </form>
     </div>
   </div>
@@ -71,6 +67,23 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+  .chat{
+    font-family: 'Amatic SC', cursive;
+  }
+  button {
+    background-color: white;
+    border: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    top: 2px;
+  }
+  input {
+    height: 35px;
+    position: relative;
+    top: -4px;
+  }
   img {
     max-width: 200px;
   }

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <span>Tosh-my-Gosh!</span>
+      <span>Toshojis!</span>
     </header>
     <main>
       <Chat />
@@ -22,31 +22,33 @@ export default {
 
 <style>
 body {
+  background-image: url("https://bit.ly/2Rifte2");
+  font-size: 26px;
   margin: 0;
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Abril Fatface', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
 }
 
 main {
-  text-align: center;
   margin-top: 40px;
+  text-align: center;
 }
 
 header {
-  margin: 0;
+  background-color: lightgrey;
   height: 56px;
+  margin: 0;
   padding: 0 16px 0 24px;
 }
 
 header span {
   display: block;
   position: relative;
-  font-size: 20px;
+  font-size: 26px;
   line-height: 1;
   letter-spacing: .02em;
   font-weight: 400;
