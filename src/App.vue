@@ -22,7 +22,7 @@ export default {
 
 <style>
 body {
-  background-image: url("https://bit.ly/2Rifte2");
+  background-image: url("https://bit.ly/2D5CyNO");
   font-size: 26px;
   margin: 0;
 }

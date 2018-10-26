@@ -32,7 +32,6 @@ export default {
         'https://bit.ly/2ENbN2u',
         'https://bit.ly/2Rh2toD',
         'https://bit.ly/2OR9PT4',
-        'https://bit.ly/2CFsQkdi',
         'https://bit.ly/2qbmgun',
         'https://bit.ly/2O8aLgC',
         'https://bit.ly/2z1YwNp',
